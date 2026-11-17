@@ -1,0 +1,8 @@
+{
+    "phpunit.phpunit": "${workspaceFolder}/vendor/bin/phpunit",
+    "phpunit.php": "php",
+    "phpunit.args": ["--configuration", "${workspaceFolder}/phpunit.xml"],
+    "files.eol": "\n",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true
+}

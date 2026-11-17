@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "1. Composer install",
+            "type": "shell",
+            "command": "composer install",
+            "problemMatcher": []
+        },
+        {
+            "label": "2. Composer dump-autoload",
+            "type": "shell",
+            "command": "composer dump-autoload",
+            "problemMatcher": []
+        },
+        {
+            "label": "3. Jalankan PHPUnit",
+            "type": "shell",
+            "command": "php vendor/bin/phpunit",
+            "group": { "kind": "test", "isDefault": true },
+            "problemMatcher": [],
+            "presentation": { "reveal": "always", "panel": "dedicated" }
+        }
+    ]
+}
